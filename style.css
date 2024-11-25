@@ -1,6 +1,72 @@
+body {
+    background-color: #000;
+    /* Black background for a secretive look */
+    color: #0f0;
+    /* Green text to mimic old computer screens */
+    font-family: 'Courier New', Courier, monospace;
+    /* Monospace font for a techy feel */
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #0f0;
+}
 
-body{
-    background-color: ivory;
-    font-family: Arial, sans-serif;
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+p,
+ul,
+li,
+nav a {
+    font-size: 1.2em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #0f0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: 2px solid #0f0;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #0f0;
+    color: #000;
 }
