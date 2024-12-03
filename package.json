@@ -1,0 +1,11 @@
+{
+  "name": "bootstrap-npm",
+  "version": "1.0.0",
+  "description": "This project contains profiles for the crew members of the ship \"Squid Pro Quo\" from the Star Wars universe. Each crew member has their own HTML page with detailed information about their role and background.",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
