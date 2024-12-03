@@ -10,36 +10,75 @@
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="index.html">Return to main</a>
-          </li>
-          <li>
-            <a href="starburst.html">Starburst</a>
-          </li>
-          <li>
-            <a href="nemo.html">Nemo</a>
-          </li>
-          <li>
-            <a href="kurnagan.html">Kurnagan</a>
-          </li>
-          <li>
-            <a href="tink-tak.html">Tink-tak</a>
-          </li>
-          <li>
-            <a href="helix.html">Helix</a>
-          </li>
-          <li>
-            <a href="ship.html">Squid Pro Quo</a>
-          </li>
-          <li>
-            <a href="power-rankings.html">Power Rankings</a>
-          </li>
-          <li>
-            <a href="parody-contact-us-with-info.html">Contact Us</a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Squid Finder</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Info</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >
+                  Crew
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="helix.html">Helix</a></li>
+                    <li><a class="dropdown-item" href="nemo.html">Nemo</a></li>
+                    <li><a class="dropdown-item" href="starburst.html">Starburst</a></li>
+                    <li><a class="dropdown-item" href="ochre.html">Ochre</a></li>
+                    <li><a class="dropdown-item" href="tink-tak.html">Tink-Tak</a></li>
+                    <li><a class="dropdown-item" href="kurnagan.html">Kurnagan</a></li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                        <a class="dropdown-item" href="crew.html">Crew page</a>
+                    </li>
+                    <li><hr class="dropdown-divider" /></li>
+                    <li>
+                        <a class="dropdown-item" href="deceased.html">Deceased</a>
+                    </li>
+                </ul>
+                 <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="ship.html">The Ship</a>
+              </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="power-rankings.html">Power Rankings</a>
+                </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="parody-contact-us-with-info.html">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
       </nav>
       <h1>Ochre</h1>
       <img src="images/chad.jpg" alt="Filler image" />
